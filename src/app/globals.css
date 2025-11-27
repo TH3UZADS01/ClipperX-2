@@ -120,3 +120,24 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* SCROLL NEON */
+.neon-scroll::-webkit-scrollbar {
+  height: 8px; /* barra fina e discreta */
+}
+
+.neon-scroll::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 9999px;
+}
+
+.neon-scroll::-webkit-scrollbar-thumb {
+  background: linear-gradient(90deg, #3926B1, #715cf4);
+  border-radius: 9999px;
+  box-shadow: 0 0 12px rgba(113, 92, 244, 0.8);
+  transition: 0.2s;
+}
+
+.neon-scroll::-webkit-scrollbar-thumb:hover {
+  box-shadow: 0 0 18px rgba(113, 92, 244, 1);
+}

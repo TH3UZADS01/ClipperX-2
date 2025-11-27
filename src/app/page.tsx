@@ -1,6 +1,6 @@
 import { Hero } from "./_Components/hero";
 import { Header } from "./_Components/header";
-import { About } from "./_Components/about";
+import { Barber } from "./_Components/barber";
 
 export default function Home() {
 
@@ -8,7 +8,8 @@ export default function Home() {
     <main>
       <Hero />
       <Header />
-      <About />
+      <Barber />
     </main>
+    
   )
 }
