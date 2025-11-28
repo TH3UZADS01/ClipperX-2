@@ -43,11 +43,11 @@ export function Barber() {
       <div className="absolute inset-0 backdrop-blur-sm"></div>
 
       <div className="relative z-10 px-10">
-        <h2 className="text-6xl font-extrabold text-center mix-blend-color-dodge drop-shadow-xl">
+        <h2 className="text-3xl sm:text-5xl lg:6xl font-extrabold text-center mix-blend-color-dodge drop-shadow-xl">
           Barbearias Disponíveis
         </h2>
 
-        <p className="mt-6 text-center text-xl opacity-90">
+        <p className="mt-6 text-center text-base sm:text-lg lg:text-xl opacity-90">
           Escolha a barbearia ideal para você.
         </p>
 
